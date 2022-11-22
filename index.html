@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="HTML,CSS,JavaScript,Website">
+  <meta name="author" content="Rachel">
+  <title>Seed of Hope</title>
+
+  <meta name="description" content="A simple educational website advocating for environmental conservation." />
+  <meta property="og:title" content="Web Fundamentals Assignment" />
+  <meta property="og:type" content="Website" />
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <header class="header">
+    <!-- Logo -->
+    <a href="#" class="logo">
+      <h1 class="header-title">Seed of Hope</h1>
+    </a>
+    <!-- Hamburger icon -->
+    <input class="side-menu" type="checkbox" id="side-menu" />
+    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+    <!-- Menu -->
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="pages/events.html">Events</a> </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!--landing page-->
+  <section id="home">
+    <div class="container">
+      <h2>At Seed of Hope,</h2>
+      <p>We believe in empowering individuals and communities through environmental education.</p>
+      <div>
+        <button class="scroll" style="line-height:1.2rem"><b>View More</b><br><span
+            style="font-size: 2rem;">&#8964;</span></button>
+      </div>
+    </div>
+
+  </section>
+
+  <!--about section-->
+  <section id="about">
+    <div class="container">
+      <p class="title">We are not the typical environmental NGO.</p>
+      <p class="subtitle">We go beyond conducting talks and campaigns. We provide everyone with
+        the opportunity to tackle real-world environmental issues and be a part of a growing
+        community of environmental advocates.
+      </p>
+    </div>
+  </section>
+
+  <!--missions section-->
+  <section id="missions">
+    <div class="container">
+      <h2>Our Missions</h2>
+      <div class="row">
+        <div class="col">
+          <div>
+            <h3>Nature Restoration</h3>
+          </div>
+          <div><img src="assets/images/treeplanting.png"></div>
+          <div>
+            <p>Every month, Seed of Hope aims to plant 100 new trees with the help of volunteers and participating NGOs.
+            </p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div>
+            <h3>Environmental Education</h3>
+          </div>
+          <div><img src="assets/images/recycle.jpg"></div>
+          <div>
+            <p>We collaborate with communities to educate the public on the importance of recycling and waste reduction.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div>
+            <h3>Community Empowerment</h3>
+          </div>
+          <div><img src="assets/images/cleanup.jpg"></div>
+          <div>
+            <p>Volunteers can loan our equipments and self-conduct a community clean up. We also help with setting up
+              campaigns.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div>
+            <h3>Waste Reduction</h3>
+          </div>
+          <div><img src="assets/images/craft.png"></div>
+          <div>
+            <p>At Seed of Hope, we have a team of volunteers to teach people how to upcycle old materials into craft
+              every weekend.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!--impact section-->
+  <section id="impact">
+    <div class="container">
+      <h2>Our Impact</h2>
+      <div class="row">
+        <div class="col">
+          <img src="assets/images/icons/megaphones.png" width="100"><br>
+          <span class="counter" data-target="45">0</span> <br>
+          nationwide campaigns hosted
+        </div>
+
+        <div class="col">
+          <img src="assets/images/icons/community.png" width="100"><br>
+          <span class="counter" data-target="230">0</span> <br>
+          community projects conducted
+        </div>
+
+        <div class="col">
+          <img src="assets/images/icons/recycle.png" width="100"><br>
+          <span class="counter" data-target="560">0</span>
+          <b>kg</b><br>of waste material recycled
+        </div>
+
+        <div class="col">
+          <img src="assets/images/icons/plant.png" width="100"><br>
+          <span class="counter" data-target="10000">0</span><br>
+          trees planted
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!--faq section-->
+  <section id="faq">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <ul>
+          <li class="list-item toggle">
+            <p class="question toggle-title">1. Can I volunteer without any prior experience?<span
+                class="toggle-icon"><b>+</b></span></p>
+            <div class="answer toggle-item">
+              <p>Absolutely! In fact, we encourage you to do so to gain more exposure and learn new things.</p>
+            </div>
+          </li>
+          <li class="list-item toggle">
+            <p class="question toggle-title">2. How do I sign up?<span class="toggle-icon"><b>+</b></span></p>
+            <div class="answer toggle-item">
+              <p>Create an account with us, then simply sign up for any upcoming events shared on our page.
+              </p>
+            </div>
+          </li>
+          <li class="list-item toggle">
+            <p class="question toggle-title">3. Do I need to pay any fees to join the events?<span
+                class="toggle-icon"><b>+</b></span></p>
+            <div class="answer toggle-item">
+              <p>All the workshops are free to join! However, you can donate to or sponsor us if you wish to. Do contact
+                us for any inquiries.</p>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--contact section-->
+  <section id="contact">
+    <div class="container">
+      <h2>Let's get in touch!</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message: </label><br>
+        <textarea required></textarea><br>
+        <button><b>submit</b></button>
+      </form>
+    </div>
+  </section>
+
+  <!--footer section-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="mb10">If you're reading this, it's your sign to join us and make a difference. No matter how big or
+            small your contribution is,
+            we will always celebrate your efforts to make the world a better place.
+          </p>
+        </div>
+
+        <div class="col">
+          <h4>Opening Hours</h4>
+          <p>Monday-Friday</p>
+          <p>9:00am - 6:00pm</p>
+          <p>Weekends</p>
+          <p>10:00am - 4:00pm</p>
+        </div>
+
+        <div class="col">
+          <h4>Contact Us</h4>
+          <ul class="footer_ul_amrc">
+            <li>Phone</li>
+            <li>0123456789</li>
+            <li>Email</li>
+            <li>seedofhope@mail.com</li>
+            <li>Address</li>
+            <li>123, ABC street</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p class="footer-text">Designed by Rachel Lim 2022</a></p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/script.js" type="module"></script>
+</body>
+
+</html>
