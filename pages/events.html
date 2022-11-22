@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="HTML,CSS,JavaScript,Website">
+  <meta name="author" content="Rachel">
+  <title>Seed of Hope</title>
+
+  <meta name="description" content="A simple educational website advocating for environmental conservation." />
+  <meta property="og:title" content="Web Fundamentals Assignment" />
+  <meta property="og:type" content="Website" />
+  <link rel="stylesheet" href="../assets/css/styles.css">
+
+  <style>
+    #events {
+      margin-top: 90px;
+    }
+
+    #events h1 {
+      text-align: center;
+      margin: 1rem;
+    }
+
+    #events .row {
+      display: block;
+    }
+
+    #events .col {
+      width: 100%;
+      text-align: center;
+      margin: 1rem 0;
+    }
+
+    #events img {
+      max-width: 85%;
+      height: 200px;
+    }
+
+    @media (min-width: 768px) {
+      #events .row {
+        display: flex;
+      }
+
+      #events img {
+        height: 330px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Navigation bar -->
+  <header class="header">
+    <!-- Logo -->
+    <a href="#" class="logo">
+      <h1 class="header-title">Seed of Hope</h1>
+    </a>
+    <!-- Hamburger icon -->
+    <input class="side-menu" type="checkbox" id="side-menu" />
+    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+    <!-- Menu -->
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">Events</a> </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!--Event section-->
+  <section id="events">
+    <h1>Upcoming Events</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <img src="../assets/images/cleanup.jpg">
+            <div class="card-body">
+              <h3 class="card-title">Beach Clean Up</h3>
+              <p>Date: 22 December 2022<br>Location: Perhentian Beach</p>
+              <button>Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../assets/images/fabric.png">
+            <div class="card-body">
+              <h3 class="card-title">Fabric Upcycling Workshop</h3>
+              <p>Date: 25 December 2022<br>Location: KLCC</p>
+              <button>Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <img src="../assets/images/soil.png">
+            <div class="card-body">
+              <h3 class="card-title">Tree Planting</h3>
+              <p>Date: 30 December 2022<br>Location: National Park</p>
+              <button>Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="../assets/images/zero.png">
+            <div class="card-body">
+              <h3 class="card-title">Zero Waste Cooking</h3>
+              <p>Date: 5 January 2023<br>Location: ABC Studios</p>
+              <button>Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1>Past Events</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <img src="../assets/images/donate.png">
+              <div class="card-body">
+                <h3 class="card-title">Clothes Donation Drive</h3>
+                <p>Date: 8 November 2022<br>Location: Seed of Hope Center</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="../assets/images/river.png">
+              <div class="card-body">
+                <h3 class="card-title">Riverside Clean Up</h3>
+                <p>Date: 3 December 2022<br>Location: Klang River </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+  <!--footer starts from here-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="mb10">If you're reading this, it's your sign to join us and make a difference. No matter how big or
+            small your contribution is,
+            we will always celebrate your efforts to make the world a better place.
+          </p>
+        </div>
+
+        <div class="col">
+          <h4>Opening Hours</h4>
+          <p>Monday-Friday</p>
+          <p>9:00am - 6:00pm</p>
+          <p>Weekends</p>
+          <p>10:00am - 4:00pm</p>
+        </div>
+
+        <div class="col">
+          <h4>Contact Us</h4>
+          <ul class="footer_ul_amrc">
+            <li>Phone</li>
+            <li>0123456789</li>
+            <li>Email</li>
+            <li>seedofhope@mail.com</li>
+            <li>Address</li>
+            <li>123, ABC street</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p class="footer-text">Designed by Rachel Lim 2022</a></p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/script.js" type="module"></script>
+</body>
+
+</html>
